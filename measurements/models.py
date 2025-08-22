@@ -29,6 +29,14 @@ class Measurement(models.Model):
     updated_at = models.DateTimeField(
         auto_now=True
     )
+    image = models.ImageField(
+        upload_to='measurement_images/',
+        null=True,
+        blank=True,
+        default=None,
+        verbose_name='Снимок'
+    )
+
 
     def __str__(self):
         return f"{self.value} ({self.project.name})"

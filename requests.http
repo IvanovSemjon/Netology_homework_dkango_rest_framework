@@ -1,4 +1,4 @@
-GET http://localhost:8000/api/projects/
+GET http://localhost:8000/api/measurements/
 
 ### 
 
