@@ -44,7 +44,9 @@ https://docs.djangoproject.com/en/3.1/ref/models/fields/#django.db.models.DateFi
 
 ### Абстрактный класс для времени
 
-с
+Вынесите `created_at` / `updated_at` поля в отдельный абстрактный класс `TimestampFields`: https://docs.djangoproject.com/en/3.1/topics/db/models/#abstract-base-classes
+
+**Вопрос:** на что при этом влияет флаг `abstract = True`? Как будет устроено наследование, если не указать этот параметр?
 
 ### Прикрепление картинки к измерению
 
