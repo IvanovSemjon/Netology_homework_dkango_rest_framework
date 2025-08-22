@@ -1,0 +1,21 @@
+GET http://localhost:8000/api/projects/
+
+### 
+
+POST http://localhost:8000/api/projects/
+
+###
+
+GET http://localhost:8000/api/projects/1/
+###
+
+PUT http://localhost:8000/api/projects/1/
+
+###
+
+PATCH  http://localhost:8000/api/projects/1/
+
+###
+
+DELETE http://localhost:8000/api/projects/1/
+
